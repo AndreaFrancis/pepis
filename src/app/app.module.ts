@@ -7,6 +7,9 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { BrandPage } from '../pages/home/brand/brand';
 import { ClientPage } from '../pages/list/client/client';
+import { ClientHistoryPage } from '../pages/list/client/history/history';
+import { ClientHistoryInputPage } from '../pages/list/client/history/input/input';
+import { ClientHistoryOutputPage } from '../pages/list/client/history/output/output';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -18,7 +21,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     BrandPage,
-    ClientPage
+    ClientPage,
+    ClientHistoryPage,
+    ClientHistoryInputPage,
+    ClientHistoryOutputPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     BrandPage,
-    ClientPage
+    ClientPage,
+    ClientHistoryPage,
+    ClientHistoryInputPage,
+    ClientHistoryOutputPage
   ],
   providers: [
     StatusBar,
